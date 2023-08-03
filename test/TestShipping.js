@@ -1,4 +1,5 @@
 const ShippingStatus= artifacts.require("./Shipping.sol");
+const truffleAssert = require('truffle-assertions');
 contract('Shipping', () => {
 
   it("should return the status Pending", async ()=> {
